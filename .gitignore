@@ -1,0 +1,8 @@
+*.swo
+*.swp
+*.bak
+*~
+
+.vagrant
+rspec_html_reports
+junit.xml
