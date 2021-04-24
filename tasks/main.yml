@@ -37,8 +37,8 @@
     group: root
     mode: 0644
   vars:
-    on_calendar: "{{ unattended_upgrades_download_oncalendar }}"
-    randomized_delay: "{{ unattended_upgrades_download_randomizeddelaysec }}"
+    on_calendar: "{{ unattendedupgrades_download_oncalendar }}"
+    randomized_delay: "{{ unattendedupgrades_download_randomizeddelaysec }}"
   notify:
     - Restart apt-daily.timer
 
@@ -50,8 +50,8 @@
     group: root
     mode: 0644
   vars:
-    on_calendar: "{{ unattended_upgrades_upgrade_oncalendar }}"
-    randomized_delay: "{{ unattended_upgrades_upgrade_randomizeddelaysec }}"
+    on_calendar: "{{ unattendedupgrades_upgrade_oncalendar }}"
+    randomized_delay: "{{ unattendedupgrades_upgrade_randomizeddelaysec }}"
   notify:
     - Restart apt-daily-upgrade.timer
 

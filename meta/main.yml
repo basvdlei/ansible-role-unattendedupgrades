@@ -1,4 +1,6 @@
 galaxy_info:
+  role_name: unattendedupgrades
+  namespace: basvdlei
   author: Bas van der Lei
   description: APT unattended upgrades
   license: BSD-3-Clause
